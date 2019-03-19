@@ -4,13 +4,8 @@
       "include": ["jest"]
     },
     "exclude": [
-      "**/node_modules/*",
-      "**/typings/browser/**",
-      "**/typings/browser.d.ts",
-      "ClientApp/public/*",
-      "ClientApp/config/*",
-      "ClientApp/node_modules/*",
-      "ClientApp/scripts/*",
-      "bin/*",
+      "node_modules/*",
+      "build/*",
+      "config/*",
     ]
   }
